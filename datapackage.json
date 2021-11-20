@@ -1,0 +1,50 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "feminicidio",
+      "path": "data/feminicidio-2018-01-2021-10.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema/feminicidio.yaml",
+      "title": "Feminicídio",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "Amostra de dados estatísticos sobre ocorrências registradas de feminicídio, tentadas ou consumadas, por município, data e RISP. Compreende de janeiro de 2018 a outubro de 2021"
+    },
+    {
+      "name": "violencia-contra-mulher",
+      "path": "data/violencia-contra-mulher-2018-01-2021-10.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema/violencia-contra-mulher.yaml",
+      "title": "Violência contra a mulher",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "Amostra de dados estatísticos de ocorrências registradas de violência familiar e doméstica contra a mulher, por município e data. Compreende de janeiro de 2018 a outubro de 2021"
+    }
+  ],
+  "keywords": [
+    "feminicídio",
+    "violência contra mulher",
+    "crimes",
+    "segurança"
+  ],
+  "name": "violencia-contra-mulher",
+  "title": "Dados sobre violência contra mulher",
+  "description": "Dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS",
+  "owner_org":"controladoria-geral-do-estado-cge",
+  "homepage": "http://www.seguranca.mg.gov.br/component/gmg/page/3118-violencia-contra-a-mulher",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "title": "André Amorim",
+      "role": "publisher"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}
