@@ -13,3 +13,13 @@ Documentação das principais alterações sofridas por este conjunto de dados.
 	- mudança da estrutura do arquivo de feminicídio para identificar os municípios pelo seu código IBGE, assim como o arquivo de violência doméstica
 
 	- mudança de formato de data dos dois arquivos de dd/mm/aaa para desmembramento do dia em nova coluna
+
+### [0.2.0] - 2021-11-25
+
+- Adição de recursos:
+
+    - de relatórios estatísticos, em formato pdf
+    
+
+
+    - originais em formato excel;

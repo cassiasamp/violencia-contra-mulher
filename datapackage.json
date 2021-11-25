@@ -20,6 +20,20 @@
       "format": "csv",
       "encoding": "utf-8",
       "description": "Amostra de dados estatísticos de ocorrências registradas de violência familiar e doméstica contra a mulher, por município e data. Compreende de janeiro de 2018 a outubro de 2021"
+    },
+    {
+      "name": "diagnostico-2016-2018",
+      "path": "data/raw/diagnostico-2016-2018.pdf",
+      "profile": "data-resource",
+      "title": "Diagnóstico 2016 a 2018",
+      "format": "pdf"
+    },
+    {
+      "name": "diagnostico-2017-2019",
+      "path": "data/raw/diagnostico-2017-2019.pdf",
+      "profile": "data-resource",
+      "title": "Diagnóstico 2017 a 2019",
+      "format": "pdf"
     }
   ],
   "keywords": [
@@ -31,9 +45,9 @@
   "name": "violencia-contra-mulher",
   "title": "Dados sobre violência contra mulher",
   "description": "Dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS",
-  "owner_org":"controladoria-geral-do-estado-cge",
+  "owner_org": "fundacao-hospitalar-do-estado-de-minas-gerais-fhemig",
   "homepage": "http://www.seguranca.mg.gov.br/component/gmg/page/3118-violencia-contra-a-mulher",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "contributors": [
     {
       "title": "André Amorim",
