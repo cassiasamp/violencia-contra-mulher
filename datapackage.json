@@ -20,20 +20,6 @@
       "format": "csv",
       "encoding": "utf-8",
       "description": "Amostra de dados estatísticos de ocorrências registradas de violência familiar e doméstica contra a mulher, por município e data. Compreende de janeiro de 2018 a outubro de 2021"
-    },
-    {
-      "name": "diagnostico-2016-2018",
-      "path": "data/raw/diagnostico-2016-2018.pdf",
-      "profile": "data-resource",
-      "title": "Diagnóstico 2016 a 2018",
-      "format": "pdf"
-    },
-    {
-      "name": "diagnostico-2017-2019",
-      "path": "data/raw/diagnostico-2017-2019.pdf",
-      "profile": "data-resource",
-      "title": "Diagnóstico 2017 a 2019",
-      "format": "pdf"
     }
   ],
   "keywords": [
@@ -42,10 +28,10 @@
     "crimes",
     "segurança"
   ],
-  "name": "violencia-contra-mulher",
+  "name": "teste-encoding",
   "title": "Dados sobre violência contra mulher",
   "description": "Dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS",
-  "owner_org": "fundacao-hospitalar-do-estado-de-minas-gerais-fhemig",
+  "owner_org": "gabinete-militar-do-governador-gmg",
   "homepage": "http://www.seguranca.mg.gov.br/component/gmg/page/3118-violencia-contra-a-mulher",
   "version": "0.2.0",
   "contributors": [
@@ -63,11 +49,11 @@
   ],
   "ckan_hosts": {
     "https://homologa.cge.mg.gov.br": {
-      "feminicidio": "5d94fc44-a6f2-4b30-ad03-7f87acb22d61",
-      "violencia-contra-mulher": "171f2fb8-829d-43d6-b84c-25e5ce644590",
-      "diagnostico-2016-2018": "9b2e4f63-a246-4fc1-a018-389f9665ab6d",
-      "diagnostico-2017-2019": "719293e5-a95b-4f60-92eb-a96a97eebda3",
-      "datapackage.json": "058c2273-3a75-4d10-a144-b5718b832ed0"
+      "feminicidio": "f75feff7-f637-4464-b900-5a1f4a908523",
+      "violencia-contra-mulher": "7687825d-0458-4a58-b501-b98b9985cd1f",
+      "diagnostico-2016-2018": "b064fa10-8900-4e73-8f8c-d9b3c9012cc8",
+      "diagnostico-2017-2019": "b809a04c-7138-451f-9726-10cde0dd2a75",
+      "datapackage.json": "5af1c81b-593c-4b72-9cf8-55b8fcd08b8b"
     }
   }
 }
