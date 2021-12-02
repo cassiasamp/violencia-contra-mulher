@@ -20,6 +20,3 @@ Documentação das principais alterações sofridas por este conjunto de dados.
 
     - de relatórios estatísticos, em formato pdf
     
-
-
-    - originais em formato excel;
