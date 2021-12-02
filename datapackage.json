@@ -51,8 +51,6 @@
     "https://homologa.cge.mg.gov.br": {
       "feminicidio": "f75feff7-f637-4464-b900-5a1f4a908523",
       "violencia-contra-mulher": "7687825d-0458-4a58-b501-b98b9985cd1f",
-      "diagnostico-2016-2018": "b064fa10-8900-4e73-8f8c-d9b3c9012cc8",
-      "diagnostico-2017-2019": "b809a04c-7138-451f-9726-10cde0dd2a75",
       "datapackage.json": "5af1c81b-593c-4b72-9cf8-55b8fcd08b8b"
     }
   }
