@@ -4,6 +4,7 @@ schema.fields:
     type: string
   - name: DATA_FATO
     type: datetime
+    format: default
   - name: MES
     type: integer
   - name: ANO_FATO
