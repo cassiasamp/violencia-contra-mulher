@@ -1,25 +1,17 @@
-resources:
-  - name: metodologia
-    type: table
-    path: data/feminicidio-2020-2022.csv
-    scheme: file
-    format: csv
-    encoding: utf-8
-    schema:
-      fields:
-        - name: TENTADO_CONSUMADO
-          type: string
-        - name: DATA_FATO
-          type: datetime
-        - name: MES
-          type: integer
-        - name: ANO_FATO
-          type: integer
-        - name: MUNICIPIO_FATO
-          type: string
-        - name: RISP
-          type: integer
-        - name: RMBH
-          type: string
-        - name: QTD_VITIMAS
-          type: integer
+fields:
+  - name: TENTADO_CONSUMADO
+    type: string
+  - name: DATA_FATO
+    type: datetime
+  - name: MES
+    type: integer
+  - name: ANO_FATO
+    type: integer
+  - name: MUNICIPIO_FATO
+    type: string
+  - name: RISP
+    type: integer
+  - name: RMBH
+    type: string
+  - name: QTD_VITIMAS
+    type: integer

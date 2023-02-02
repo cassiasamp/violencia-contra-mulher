@@ -1,14 +1,14 @@
-  fields:
-    - name: MUNICIPIO-COD
-      type: integer
-    - name: MUNICIPIO-NOME
-      type: string
-    - name: DIA
-      type: integer
-    - name: MES
-      type: integer
-    - name: ANO
-      type: integer
-    - name: VITIMAS
-      type: integer
+fields:
+  - name: MUNICIPIO-COD
+    type: integer
+  - name: MUNICIPIO-NOME
+    type: string
+  - name: DIA
+    type: integer
+  - name: MES
+    type: integer
+  - name: ANO
+    type: integer
+  - name: VITIMAS
+    type: integer
 

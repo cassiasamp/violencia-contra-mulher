@@ -1,20 +1,20 @@
-  fields:
-    - name: MUNICIPIO_COD
-      type: integer
-    - name: MUNICIPIO_NOME
-      type: string
-    - name: TIPO
-      type: string
-    - name: DIA
-      type: integer
-    - name: MES
-      type: integer
-    - name: ANO
-      type: integer
-    - name: RISP
-      type: integer
-    - name: RMBH
-      type: string
-    - name: VITIMAS
-      type: integer
+fields:
+  - name: MUNICIPIO_COD
+    type: integer
+  - name: MUNICIPIO_NOME
+    type: string
+  - name: TIPO
+    type: string
+  - name: DIA
+    type: integer
+  - name: MES
+    type: integer
+  - name: ANO
+    type: integer
+  - name: RISP
+    type: integer
+  - name: RMBH
+    type: string
+  - name: VITIMAS
+    type: integer
 
