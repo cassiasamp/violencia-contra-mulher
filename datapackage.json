@@ -12,6 +12,16 @@
       "description": "Amostra de dados estatísticos sobre ocorrências registradas de feminicídio, tentadas ou consumadas, por município, data e RISP. Compreende de janeiro de 2018 a outubro de 2021"
     },
     {
+      "name": "feminicidio",
+      "path": "data/feminicidio-2020-2022.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schemas/feminicidio-2020-2022.yaml",
+      "title": "Feminicídio - 2020 a 2022",
+      "format": "csv",
+      "encoding": "utf-8",
+      "description": "Amostra de dados estatísticos sobre ocorrências registradas de feminicídio, tentadas ou consumadas, por município, data e RISP. Compreende de janeiro de 2020 a dezembro de 2022"
+    },
+    {
       "name": "violencia-contra-mulher",
       "path": "data/violencia-contra-mulher-2018-01-2021-10.csv",
       "profile": "tabular-data-resource",
