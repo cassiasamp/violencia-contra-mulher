@@ -5,8 +5,8 @@
       "name": "feminicidio",
       "path": "data/feminicidio-2018-01-2021-10.csv",
       "profile": "tabular-data-resource",
-      "schema": "schema/feminicidio.yaml",
-      "title": "Feminicídio",
+      "schema": "schemas/feminicidio-2018-01-2021-10.yaml",
+      "title": "Feminicídio - 2018 a 2021",
       "format": "csv",
       "encoding": "utf-8",
       "description": "Amostra de dados estatísticos sobre ocorrências registradas de feminicídio, tentadas ou consumadas, por município, data e RISP. Compreende de janeiro de 2018 a outubro de 2021"
@@ -15,8 +15,8 @@
       "name": "violencia-contra-mulher",
       "path": "data/violencia-contra-mulher-2018-01-2021-10.csv",
       "profile": "tabular-data-resource",
-      "schema": "schema/violencia-contra-mulher.yaml",
-      "title": "Violência contra a mulher",
+      "schema": "schemas/violencia-contra-mulher-2018-01-2021-10.yaml",
+      "title": "Violência contra a mulher - 2018 a 2021",
       "format": "csv",
       "encoding": "utf-8",
       "description": "Amostra de dados estatísticos de ocorrências registradas de violência familiar e doméstica contra a mulher, por município e data. Compreende de janeiro de 2018 a outubro de 2021"
@@ -31,8 +31,9 @@
   "name": "teste-encoding",
   "title": "Dados sobre violência contra mulher",
   "description": "Dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS",
-  "owner_org": "gabinete-militar-do-governador-gmg",
+  "owner_org": "secretaria-de-estado-de-justica-e-seguranca-publica-sejusp",
   "homepage": "http://www.seguranca.mg.gov.br/component/gmg/page/3118-violencia-contra-a-mulher",
+  "frequência de atualização": "mensal",
   "version": "0.2.0",
   "contributors": [
     {
@@ -49,9 +50,9 @@
   ],
   "ckan_hosts": {
     "https://homologa.cge.mg.gov.br": {
-      "feminicidio": "f75feff7-f637-4464-b900-5a1f4a908523",
-      "violencia-contra-mulher": "7687825d-0458-4a58-b501-b98b9985cd1f",
-      "datapackage.json": "5af1c81b-593c-4b72-9cf8-55b8fcd08b8b"
+      "feminicidio": "bbbc43aa-c6b1-4c71-a032-c8aeffac8320",
+      "violencia-contra-mulher": "8ff9e7e4-fb9b-4bfb-a98e-a570c7c4d4e7",
+      "datapackage.json": "6d8f5850-7734-4649-9c30-7e30eaca5986"
     }
   }
 }
