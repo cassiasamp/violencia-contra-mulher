@@ -8,6 +8,7 @@ def convert_csv():
   abas = ["Dados"]
   for aba in abas:
     read_file = pd.read_excel (xlsx_file_path, aba)
+    abas.rename(columns = {'TENTADO/CONSUMADO':'TENTADO_CONSUMADO','DATA DO FATO':'DATA_FATO','MÊS':'MES','ANO DO FATO':'ANO_FATO','MUNICIPIO DO FATO':'MUNICIPIO_FATO','QTD DE VÍTIMAS':'QTD_VITIMAS'}, inplace=True)
     read_file.to_csv (f'data/feminicidio-2020-2022.csv', index = None, header=True, sep = ';', decimal = ',', encoding = 'utf-8-sig', na_rep = "")
 
 if __name__ == '__main__':
