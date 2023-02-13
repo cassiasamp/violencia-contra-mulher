@@ -1,0 +1,16 @@
+path: data/violencia-contra-mulher-2020-2022.csv
+schema.fields:
+  - name: MUNICIPIO_COD
+    type: integer
+  - name: MUNICIPIO
+    type: string
+  - name: DATA_FATO
+    type: date
+  - name: MES
+    type: integer
+  - name: ANO
+    type: integer
+  - name: QUANT_VITIMAS_VIOL.DOMESTICA
+    type: integer
+scheme: file
+
