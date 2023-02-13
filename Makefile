@@ -26,7 +26,7 @@ update: ## Atualiza dataset e todos os seus recursos em instância do CKAN
 	@dpckan --datastore dataset update
 
 data: 
-	@echo "Convertendo abas do arquivo excel para 4 arquivos csv"
+	@echo "Convertendo arquivos excel para csv"
 	@python ./scripts/convert_csv.py 
 
 resource-create: ## Cria recursos em instância do CKAN
