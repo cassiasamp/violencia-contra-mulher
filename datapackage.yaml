@@ -1,6 +1,6 @@
 name: violencia-contra-mulher
-title: Conjunto-teste de demonstração da oficina com a SEJUSP
-description: Dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS,
+title: Conjunto-teste de demonstração da oficina com a PCMG [CONJUNTO EM HOMOLOGAÇÃO/TESTES]
+description: Conjunto-teste de demonstração da oficina com a PCMG [CONJUNTO EM HOMOLOGAÇÃO/TESTES]. Contém dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS,
 owner_org: secretaria-de-estado-de-justica-e-seguranca-publica-sejusp,
 source: http://www.seguranca.mg.gov.br/component/gmg/page/3118-violencia-contra-a-mulher,
 homepage: https://github.com/Andrelamor/violencia-contra-mulher 
