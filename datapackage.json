@@ -2,19 +2,23 @@
   "name": "violencia-contra-mulher",
   "title": "Conjunto-teste de demonstração da oficina com a SEJUSP",
   "description": "Dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS,",
+  "owner_org": "secretaria-de-estado-de-justica-e-seguranca-publica-sejusp,",
+  "source": "http://www.seguranca.mg.gov.br/component/gmg/page/3118-violencia-contra-a-mulher,",
   "homepage": "https://github.com/Andrelamor/violencia-contra-mulher",
-  "licenses": [
-    {
-      "name": "CC-BY-4.0",
-      "title": "Creative Commons Attribution 4.0",
-      "path": "https://creativecommons.org/licenses/by/4.0/"
-    }
-  ],
+  "frequência de atualização": "mensal",
+  "version": "0.2.0,",
   "contributors": [
     {
       "title": "André Amorim",
       "role": "publisher",
       "email": "andre.amorim@cge.mg.gov.br"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "keywords": [
@@ -23,36 +27,34 @@
     "crimes",
     "segurança"
   ],
-  "version": "0.2.0,",
+  "scheme": "file",
   "resources": [
     {
-      "name": "feminicidio-2018-01-2021-10",
-      "type": "table",
       "path": "data/feminicidio-2018-01-2021-10.csv",
+      "name": "feminicidio-2018-01-2021-10",
+      "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
+      "hashing": "md5",
       "encoding": "utf-8-sig",
-      "mediatype": "text/csv",
       "dialect": {
-        "csv": {
-          "delimiter": ";"
-        }
+        "delimiter": ";"
       },
       "schema": {
         "fields": [
           {
-            "name": "MUNICIPIO_COD",
             "type": "integer",
+            "name": "MUNICIPIO_COD",
             "title": "Código do Município",
             "description": "Codificação do município de acordo com o IBGE"
           },
           {
-            "name": "MUNICIPIO_NOME",
-            "type": "string"
+            "type": "string",
+            "name": "MUNICIPIO_NOME"
           },
           {
-            "name": "TIPO",
             "type": "string",
+            "name": "TIPO",
             "constraints": {
               "enum": [
                 "CONSUMADO",
@@ -61,45 +63,42 @@
             }
           },
           {
-            "name": "DIA",
-            "type": "integer"
+            "type": "integer",
+            "name": "DIA"
           },
           {
-            "name": "MES",
-            "type": "integer"
+            "type": "integer",
+            "name": "MES"
           },
           {
-            "name": "ANO",
-            "type": "integer"
+            "type": "integer",
+            "name": "ANO"
           },
           {
-            "name": "RISP",
-            "type": "integer"
+            "type": "integer",
+            "name": "RISP"
           },
           {
-            "name": "RMBH",
-            "type": "string"
+            "type": "string",
+            "name": "RMBH"
           },
           {
-            "name": "VITIMAS",
-            "type": "integer"
+            "type": "integer",
+            "name": "VITIMAS"
           }
         ]
-      },
-      "hashing": "md5"
+      }
     },
     {
-      "name": "feminicidio-2020-2022",
-      "type": "table",
       "path": "data/feminicidio-2020-2022.csv",
+      "name": "feminicidio-2020-2022",
+      "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
+      "hashing": "md5",
       "encoding": "utf-8-sig",
-      "mediatype": "text/csv",
       "dialect": {
-        "csv": {
-          "delimiter": ";"
-        }
+        "delimiter": ";"
       },
       "schema": {
         "fields": [
@@ -136,64 +135,58 @@
             "type": "integer"
           }
         ]
-      },
-      "hashing": "md5"
+      }
     },
     {
-      "name": "violencia-contra-mulher-2018-01-2021-10",
-      "type": "table",
       "path": "data/violencia-contra-mulher-2018-01-2021-10.csv",
+      "name": "violencia-contra-mulher-2018-01-2021-10",
+      "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
+      "hashing": "md5",
       "encoding": "utf-8-sig",
-      "mediatype": "text/csv",
       "dialect": {
-        "csv": {
-          "delimiter": ";"
-        }
+        "delimiter": ";"
       },
       "schema": {
         "fields": [
           {
-            "name": "MUNICIPIO-COD",
-            "type": "integer"
+            "type": "integer",
+            "name": "MUNICIPIO-COD"
           },
           {
-            "name": "MUNICIPIO-NOME",
-            "type": "string"
+            "type": "string",
+            "name": "MUNICIPIO-NOME"
           },
           {
-            "name": "DIA",
-            "type": "integer"
+            "type": "integer",
+            "name": "DIA"
           },
           {
-            "name": "MES",
-            "type": "integer"
+            "type": "integer",
+            "name": "MES"
           },
           {
-            "name": "ANO",
-            "type": "integer"
+            "type": "integer",
+            "name": "ANO"
           },
           {
-            "name": "VITIMAS",
-            "type": "integer"
+            "type": "integer",
+            "name": "VITIMAS"
           }
         ]
-      },
-      "hashing": "md5"
+      }
     },
     {
-      "name": "violencia-contra-mulher-2020-2022",
-      "type": "table",
       "path": "data/violencia-contra-mulher-2020-2022.csv",
+      "name": "violencia-contra-mulher-2020-2022",
+      "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
+      "hashing": "md5",
       "encoding": "utf-8-sig",
-      "mediatype": "text/csv",
       "dialect": {
-        "csv": {
-          "delimiter": ";"
-        }
+        "delimiter": ";"
       },
       "schema": {
         "fields": [
@@ -222,12 +215,8 @@
             "type": "integer"
           }
         ]
-      },
-      "hashing": "md5"
+      }
     }
   ],
-  "owner_org": "secretaria-de-estado-de-justica-e-seguranca-publica-sejusp,",
-  "source": "http://www.seguranca.mg.gov.br/component/gmg/page/3118-violencia-contra-a-mulher,",
-  "frequência de atualização": "mensal",
-  "scheme": "file"
+  "profile": "tabular-data-package"
 }
