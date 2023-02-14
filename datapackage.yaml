@@ -1,4 +1,4 @@
-name: violencia-mulher
+name: violencia-contra-mulher
 title: Conjunto-teste de demonstração da oficina com a SEJUSP
 description: Dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS,
 owner_org: secretaria-de-estado-de-justica-e-seguranca-publica-sejusp,
@@ -29,8 +29,7 @@ resources:
     format: csv
     hashing: md5
     encoding: utf-8-sig
-    dialect:
-      delimiter: ;
+    dialect: schemas/dialect-v1.yaml
     schema:
       fields:
         - type: integer
@@ -64,8 +63,7 @@ resources:
     format: csv
     hashing: md5
     encoding: utf-8-sig
-    dialect:
-      delimiter: ;
+    dialect: schemas/dialect-v1.yaml
     schema:
       fields:
         - name: TENTADO_CONSUMADO
@@ -91,8 +89,7 @@ resources:
     format: csv
     hashing: md5
     encoding: utf-8-sig
-    dialect:
-      delimiter: ;
+    dialect: schemas/dialect-v1.yaml
     schema:
       fields:
         - type: integer
@@ -114,8 +111,7 @@ resources:
     format: csv
     hashing: md5
     encoding: utf-8-sig
-    dialect:
-      delimiter: ;
+    dialect: schemas/dialect-v1.yaml
     schema:
       fields:  
         - name: MUNICIPIO_COD
