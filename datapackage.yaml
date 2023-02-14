@@ -71,7 +71,8 @@ resources:
         - name: TENTADO_CONSUMADO
           type: string
         - name: DATA_FATO
-          type: datetime
+          type: date
+        - format: '%Y-%m-%d'
         - name: MES
           type: integer
         - name: ANO_FATO
