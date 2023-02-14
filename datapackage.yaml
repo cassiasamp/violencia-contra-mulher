@@ -72,7 +72,6 @@ resources:
           type: string
         - name: DATA_FATO
           type: date
-        - format: '%Y-%m-%d'
         - name: MES
           type: integer
         - name: ANO_FATO

@@ -3,8 +3,7 @@ schema.fields:
   - name: TENTADO_CONSUMADO
     type: string
   - name: DATA_FATO
-    type: datetime
-    format: default
+    type: date
   - name: MES
     type: integer
   - name: ANO_FATO

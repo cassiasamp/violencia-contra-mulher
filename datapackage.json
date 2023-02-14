@@ -108,8 +108,7 @@
           },
           {
             "name": "DATA_FATO",
-            "type": "date",
-            "format": "%Y-%m-%d"
+            "type": "date"
           },
           {
             "name": "MES",
