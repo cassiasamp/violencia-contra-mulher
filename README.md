@@ -1,4 +1,4 @@
-[![frictionless](https://github.com/Andrelamor/violencia-contra-mulher/actions/workflows/frictionless.yaml/badge.svg)](https://github.com/Andrelamor/violencia-contra-mulher/actions/workflows/frictionless.yaml)
+[![Atualização](https://github.com/Andrelamor/violencia-contra-mulher/actions/workflows/main.yaml/badge.svg)](https://github.com/Andrelamor/violencia-contra-mulher/actions/workflows/main.yaml)
 
 Conjunto de dados, para homologação, que contém amostras de registros estatísticos sobre violência contra a mulher no estado de Minas Gerais. 
 
