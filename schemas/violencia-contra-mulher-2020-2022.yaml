@@ -10,19 +10,19 @@ schema.fields:
     description: Nome do Município do Evento
   - name: DATA_FATO
     type: date
-    title:
-    description:
+    title: Data do fato
+    description: data de ocorrência do evento
   - name: MES
     type: integer
-    title:
-    description:
+    title: Mês do fato
+    description: mês de ocorrência do evento
   - name: ANO
     type: integer
-    title:
-    description:
+    title: ano do fato
+    description: ano de ocorrência do evento
   - name: QUANT_VITIMAS_VIOL.DOMESTICA
     type: integer
-    title:
-    description:
+    title: Quantidade de vítimas
+    description: quantitativo de vítimas de violência doméstica
 scheme: file
 
