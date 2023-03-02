@@ -2,12 +2,12 @@ path: data/violencia-contra-mulher-2020-2022.csv
 schema.fields:
   - name: MUNICIPIO_COD
     type: integer
-    title:
-    description:
+    title: Código do Município
+    description: Código do Município do Evento
   - name: MUNICIPIO
     type: string
-    title:
-    description:
+    title: Nome do Município
+    description: Nome do Município do Evento
   - name: DATA_FATO
     type: date
     title:
