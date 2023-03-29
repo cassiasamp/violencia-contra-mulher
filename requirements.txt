@@ -1,0 +1,4 @@
+ipdb
+pandas==1.5.3
+dpckan==0.1.21
+openpyxl==3.1.2
