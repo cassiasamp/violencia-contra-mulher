@@ -21,11 +21,11 @@ schema.fields:
     title: ano do fato
     description: ano de ocorrência do evento
   - name: RISP
-    type: integer
+    type: string
     title: Região Integrada de Segurança Pública
     description: Região Integrada de Segurança Pública
   - name: RMBH
-    type: Região Metropolitana de BH
+    type: string
     title: Região Metropolitana de BH
     description: ano de ocorrência do evento
   - name: NATUREZA_DELITO
