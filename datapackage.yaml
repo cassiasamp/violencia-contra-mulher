@@ -22,7 +22,7 @@ keywords:
   - 'segurança'
 scheme: file
 resources:
-  - path: data/feminicidio-2023.csv
+  - path: data/feminicidio_2023.csv
     name: feminicidio-2023
     profile: tabular-data-resource
     scheme: file
@@ -30,33 +30,8 @@ resources:
     hashing: md5
     encoding: utf-8-sig
     dialect: schemas/dialect-v1.yaml
-    schema:
-      fields:
-        - type: integer
-          name: MUNICIPIO_COD
-          title: "Código do Município"
-          description: "Codificação do município de acordo com o IBGE"
-        - type: string
-          name: MUNICIPIO_NOME
-        - type: string
-          name: TIPO
-          constraints:
-            enum:
-              - 'CONSUMADO'
-              - 'TENTADO'
-        - type: integer
-          name: DIA
-        - type: integer
-          name: MES
-        - type: integer
-          name: ANO
-        - type: integer
-          name: RISP
-        - type: string
-          name: RMBH
-        - type: integer
-          name: VITIMAS
-  - path: data/violencia-contra-mulher-2023.csv
+    schema: schemas/feminicidio_v1.yaml
+  - path: data/violencia_contra_mulher_2023.csv
     name: violencia-contra-mulher-2023
     profile: tabular-data-resource
     scheme: file
@@ -64,19 +39,6 @@ resources:
     hashing: md5
     encoding: utf-8-sig
     dialect: schemas/dialect-v1.yaml
-    schema:
-      fields:  
-        - name: MUNICIPIO_COD
-          type: integer
-        - name: MUNICIPIO
-          type: string
-        - name: DATA_FATO
-          type: date
-        - name: MES
-          type: integer
-        - name: ANO
-          type: integer
-        - name: QUANT_VITIMAS_VIOL.DOMESTICA
-          type: integer
+    schema: schemas/violencia_domestica_v1.yaml
 profile: tabular-data-package
 
