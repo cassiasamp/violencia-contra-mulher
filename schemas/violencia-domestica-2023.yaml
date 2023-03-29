@@ -1,4 +1,4 @@
-path: data/violencia-contra-mulher-2023.csv
+path: data/violencia-domestica-2023.csv
 schema.fields:
   - name: MUNICIPIO_COD
     type: integer
