@@ -45,4 +45,5 @@ compare: ## Compara recursos existentes na pasta data com os incluído no datapa
 
 clean: ## Limpa arquivos CSV e datapackage.json
 	@echo 'Limpando arquivos CSV e datapackage.json...'
+	@rm -rf data/
 	@rm -rf datapackage.json
