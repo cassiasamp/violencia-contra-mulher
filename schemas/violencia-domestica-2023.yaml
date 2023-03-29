@@ -1,0 +1,44 @@
+path: data/violencia-contra-mulher-2023.csv
+schema.fields:
+  - name: MUNICIPIO_COD
+    type: integer
+    title: Código do Município
+    description: Código do Município do Evento
+  - name: MUNICIPIO
+    type: string
+    title: Nome do Município
+    description: Nome do Município do Evento
+  - name: DATA_FATO
+    type: date
+    title: Data do fato
+    description: data de ocorrência do evento
+  - name: MES
+    type: integer
+    title: Mês do fato
+    description: mês de ocorrência do evento
+  - name: ANO
+    type: integer
+    title: ano do fato
+    description: ano de ocorrência do evento
+  - name: RISP
+    type: integer
+    title: Região Integrada de Segurança Pública
+    description: Região Integrada de Segurança Pública
+  - name: RMBH
+    type: Região Metropolitana de BH
+    title: Região Metropolitana de BH
+    description: ano de ocorrência do evento
+  - name: NATUREZA_DELITO
+    type: integer
+    title: Natureza do Delito
+    description: Natureza do Delito
+  - name: TENTADO_CONSUMADO
+    type: integer
+    title: Tentado ou consumado
+    description: Tentado ou consumado
+  - name: QUANT_VITIMAS_VIOL.DOMESTICA
+    type: integer
+    title: Quantidade de vítimas
+    description: quantitativo de vítimas de violência doméstica
+scheme: file
+
