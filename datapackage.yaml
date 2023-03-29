@@ -22,8 +22,8 @@ keywords:
   - 'segurança'
 scheme: file
 resources:
-  - path: data/feminicidio-2018-01-2021-10.csv
-    name: feminicidio-2018-01-2021-10
+  - path: data/feminicidio-2023.csv
+    name: feminicidio-2023
     profile: tabular-data-resource
     scheme: file
     format: csv
@@ -56,56 +56,8 @@ resources:
           name: RMBH
         - type: integer
           name: VITIMAS
-  - path: data/feminicidio-2020-2022.csv
-    name: feminicidio-2020-2022
-    profile: tabular-data-resource
-    scheme: file
-    format: csv
-    hashing: md5
-    encoding: utf-8-sig
-    dialect: schemas/dialect-v1.yaml
-    schema:
-      fields:
-        - name: TENTADO_CONSUMADO
-          type: string
-        - name: DATA_FATO
-          type: date
-        - name: MES
-          type: integer
-        - name: ANO_FATO
-          type: integer
-        - name: MUNICIPIO_FATO
-          type: string
-        - name: RISP
-          type: integer
-        - name: RMBH
-          type: string
-        - name: QTD_VITIMAS
-          type: integer
-  - path: data/violencia-contra-mulher-2018-01-2021-10.csv
-    name: violencia-contra-mulher-2018-01-2021-10
-    profile: tabular-data-resource
-    scheme: file
-    format: csv
-    hashing: md5
-    encoding: utf-8-sig
-    dialect: schemas/dialect-v1.yaml
-    schema:
-      fields:
-        - type: integer
-          name: MUNICIPIO-COD
-        - type: string
-          name: MUNICIPIO-NOME
-        - type: integer
-          name: DIA
-        - type: integer
-          name: MES
-        - type: integer
-          name: ANO
-        - type: integer
-          name: VITIMAS
-  - path: data/violencia-contra-mulher-2020-2022.csv
-    name: violencia-contra-mulher-2020-2022
+  - path: data/violencia-contra-mulher-2023.csv
+    name: violencia-contra-mulher-2023
     profile: tabular-data-resource
     scheme: file
     format: csv
