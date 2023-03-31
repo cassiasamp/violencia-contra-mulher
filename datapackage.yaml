@@ -1,11 +1,11 @@
 name: violencia-contra-mulher
 title: Conjunto-teste de demonstração da oficina com a PCMG [CONJUNTO EM HOMOLOGAÇÃO/TESTES]
-description: Conjunto-teste de demonstração da oficina com a PCMG [CONJUNTO EM HOMOLOGAÇÃO/TESTES]. Contém dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS,
-owner_org: policia-civil-pcmg,
-source: http://www.seguranca.mg.gov.br/component/gmg/page/3118-violencia-contra-a-mulher,
+description: Conjunto-teste de demonstração da oficina com a PCMG [CONJUNTO EM HOMOLOGAÇÃO/TESTES]. Contém dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS
+owner_org: policia-civil-pcmg
+source: http://www.seguranca.mg.gov.br/component/gmg/page/3118-violencia-contra-a-mulher
 homepage: https://github.com/Andrelamor/violencia-contra-mulher 
-frequência de atualização: mensal,
-version: 0.2.0,
+frequência de atualização: mensal
+version: 0.2.0
 contributors:
   - title: André Amorim
     role: publisher
@@ -22,8 +22,9 @@ keywords:
   - 'segurança'
 scheme: file
 resources:
-  - path: data/feminicidio_2022.csv
-    name: feminicidio-2022
+  - path: data/feminicidio_2018.csv
+    name: feminicidio-2018
+    title: Feminicidio 2018
     profile: tabular-data-resource
     scheme: file
     format: csv
@@ -31,8 +32,149 @@ resources:
     encoding: utf-8-sig
     dialect: schemas/dialect-v1.yaml
     schema: schemas/feminicidio_v1.yaml
+  - path: data/feminicidio_2019.csv
+    name: feminicidio-2019
+    title: Feminicidio 2019
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/feminicidio_v1.yaml
+  - path: data/feminicidio_2020.csv
+    name: feminicidio-2020
+    title: Feminicidio 2020
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/feminicidio_v1.yaml
+  - path: data/feminicidio_2021.csv
+    name: feminicidio-2021
+    title: Feminicidio 2021
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/feminicidio_v1.yaml
+  - path: data/feminicidio_2022.csv
+    name: feminicidio-2022
+    title: Feminicidio 2022
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/feminicidio_v1.yaml
+  - path: data/feminicidio_2023.csv
+    name: feminicidio-2023
+    title: Feminicidio 2023
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/feminicidio_v1.yaml
+  - path: data/violencia_domestica_2014.csv
+    name: violencia-contra-mulher-2014
+    title: Violencia Contra Mulher 2014
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/violencia_domestica_v1.yaml
+  - path: data/violencia_domestica_2015.csv
+    name: violencia-contra-mulher-2015
+    title: Violencia Contra Mulher 2015
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/violencia_domestica_v1.yaml
+  - path: data/violencia_domestica_2016.csv
+    name: violencia-contra-mulher-2016
+    title: Violencia Contra Mulher 2016
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/violencia_domestica_v1.yaml
+  - path: data/violencia_domestica_2017.csv
+    name: violencia-contra-mulher-2017
+    title: Violencia Contra Mulher 2017
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/violencia_domestica_v1.yaml
+  - path: data/violencia_domestica_2018.csv
+    name: violencia-contra-mulher-2018
+    title: Violencia Contra Mulher 2018
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/violencia_domestica_v1.yaml
+  - path: data/violencia_domestica_2019.csv
+    name: violencia-contra-mulher-2019
+    title: Violencia Contra Mulher 2019
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/violencia_domestica_v1.yaml
+  - path: data/violencia_domestica_2020.csv
+    name: violencia-contra-mulher-2020
+    title: Violencia Contra Mulher 2020
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/violencia_domestica_v1.yaml
+  - path: data/violencia_domestica_2021.csv
+    name: violencia-contra-mulher-2021
+    title: Violencia Contra Mulher 2021
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/violencia_domestica_v1.yaml
   - path: data/violencia_domestica_2022.csv
     name: violencia-contra-mulher-2022
+    title: Violencia Contra Mulher 2022
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect: schemas/dialect-v1.yaml
+    schema: schemas/violencia_domestica_v1.yaml
+  - path: data/violencia_domestica_2023.csv
+    name: violencia-contra-mulher-2023
+    title: Violencia Contra Mulher 2023
     profile: tabular-data-resource
     scheme: file
     format: csv
