@@ -1,42 +1,42 @@
 path: data/violencia-domestica-2023.csv
 schema.fields:
-  - name: MUNICIPIO_COD
+  - name: municipio_cod
     type: integer
     title: Código do Município
     description: Código do Município do Evento
-  - name: MUNICIPIO
+  - name: municipio_fato
     type: string
     title: Nome do Município
     description: Nome do Município do Evento
-  - name: DATA_FATO
+  - name: data_fato
     type: date
     title: Data do fato
     description: data de ocorrência do evento
-  - name: MES
+  - name: mes
     type: integer
     title: Mês do fato
     description: mês de ocorrência do evento
-  - name: ANO
+  - name: ano
     type: integer
     title: ano do fato
     description: ano de ocorrência do evento
-  - name: RISP
+  - name: risp
     type: string
     title: Região Integrada de Segurança Pública
     description: Região Integrada de Segurança Pública
-  - name: RMBH
+  - name: rmbh
     type: string
     title: Região Metropolitana de BH
     description: ano de ocorrência do evento
-  - name: NATUREZA_DELITO
+  - name: natureza_delito
     type: integer
     title: Natureza do Delito
     description: Natureza do Delito
-  - name: TENTADO_CONSUMADO
+  - name: tentado_consumado
     type: integer
     title: Tentado ou consumado
     description: Tentado ou consumado
-  - name: QUANT_VITIMAS_VIOL.DOMESTICA
+  - name: qtde_vitimas
     type: integer
     title: Quantidade de vítimas
     description: quantitativo de vítimas de violência doméstica

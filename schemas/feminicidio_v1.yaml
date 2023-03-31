@@ -1,38 +1,38 @@
 path: data/feminicidio-2023.csv
 schema.fields:
-  - name: MUNICIPIO_COD
+  - name: municipio_cod
     type: integer
     title: Código do município
     description: Código do município do evento
-  - name: MUNICIPIO_FATO
+  - name: municipio_fato
     type: string
     title: Munícipio do fato
     description: Munícipio de ocorrência do evento
-   - name: DATA_FATO
+   - name: data_fato
     type: date
     title: Data do fato
     description: Data de ocorrência do evento
-  - name: MES
+  - name: mes
     type: integer
     title: Mês do fato
     description: Mês de ocorrência do evento
-  - name: ANO_FATO
+  - name: ano
     type: integer
     title: Ano do fato 
     description: Ano de ocorrência do evento
-  - name: RISP
+  - name: risp
     type: string
     title: Região Integrada de Segurança Pública
     description: Descrição da região integrada de segurança pública
-  - name: RMBH
+  - name: rmbh
     type: string
     title: Região Metropolitana de Belo Horizonte
     description: Indicador se o município pertence a região metropolitana de Belo Horizonte
-  - name: TENTADO_CONSUMADO
+  - name: tentado_consumado
     type: string
     title: tipo do crime
     description: tipo de ocorrência do evento (consumado ou tentado)
-  - name: QTD_VITIMAS
+  - name: qtde_vitimas
     type: integer
     title: Quantidade de vítimas
     description: Quantitativo de vítimas de feminicídio
