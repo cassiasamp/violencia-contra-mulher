@@ -3,7 +3,6 @@ name: Atualização
 on:
   push:
     paths:
-      - 'datapackage.json'
       - 'datapackage.yaml'
       - 'schemas/*'
       - 'README.md'
