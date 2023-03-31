@@ -1,4 +1,3 @@
-path: data/violencia-domestica-2023.csv
 schema.fields:
   - name: municipio_cod
     type: integer

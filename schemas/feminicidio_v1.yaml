@@ -1,4 +1,3 @@
-path: data/feminicidio-2023.csv
 schema.fields:
   - name: municipio_cod
     type: integer
@@ -8,7 +7,7 @@ schema.fields:
     type: string
     title: Munícipio do fato
     description: Munícipio de ocorrência do evento
-   - name: data_fato
+  - name: data_fato
     type: date
     title: Data do fato
     description: Data de ocorrência do evento
