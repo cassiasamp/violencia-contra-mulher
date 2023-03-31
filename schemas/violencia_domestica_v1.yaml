@@ -28,11 +28,11 @@ fields:
     title: Região Metropolitana de BH
     description: ano de ocorrência do evento
   - name: natureza_delito
-    type: integer
+    type: string
     title: Natureza do Delito
     description: Natureza do Delito
   - name: tentado_consumado
-    type: integer
+    type: string
     title: Tentado ou consumado
     description: Tentado ou consumado
   - name: qtde_vitimas
