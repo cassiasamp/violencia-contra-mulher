@@ -12,8 +12,9 @@ def convert_csv():
     new_columns = []
     for column in columns:
       new_columns.append(snake_small_case(column))
-    import ipdb; ipdb.set_trace(context=10)
     csv_name = file.split('.xlsx')[0]
+    #import ipdb; ipdb.set_trace(context=10)
+    read_file.columns=new_columns
     read_file.to_csv (f'data/{csv_name}.csv', index = None, header=True, sep = ';', decimal = ',', encoding = 'utf-8-sig', na_rep = "")
 
 def snake_small_case(column):
