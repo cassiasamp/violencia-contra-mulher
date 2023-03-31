@@ -22,8 +22,8 @@ keywords:
   - 'segurança'
 scheme: file
 resources:
-  - path: data/feminicidio_2023.csv
-    name: feminicidio-2023
+  - path: data/feminicidio_2022.csv
+    name: feminicidio-2022
     profile: tabular-data-resource
     scheme: file
     format: csv
@@ -31,8 +31,8 @@ resources:
     encoding: utf-8-sig
     dialect: schemas/dialect-v1.yaml
     schema: schemas/feminicidio_v1.yaml
-  - path: data/violencia_contra_mulher_2023.csv
-    name: violencia-contra-mulher-2023
+  - path: data/violencia_domestica_2022.csv
+    name: violencia-contra-mulher-2022
     profile: tabular-data-resource
     scheme: file
     format: csv
