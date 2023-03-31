@@ -20,12 +20,12 @@ jobs:
         uses: actions/checkout@v2
       - name: Clean
         run: make clean
+      - name: Data
+        run: make data
       - name: Build
         run: make build
       - name: Commit new datapackage.json
         uses: stefanzweifel/git-auto-commit-action@v4
-      - name: Data
-        run: make data
       - name: Compare
         run: make compare
   validate:
