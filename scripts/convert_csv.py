@@ -2,7 +2,7 @@ import os
 import sys
 import pandas as pd
 import re
-from unicode import unidecode
+from unidecode import unidecode
 
 def convert_csv():
   upload_files = os.listdir('upload')
