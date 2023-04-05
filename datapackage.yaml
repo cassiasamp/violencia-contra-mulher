@@ -3,13 +3,16 @@ title: Conjunto-teste de demonstração da oficina com a PCMG [CONJUNTO EM HOMOL
 description: Conjunto-teste de demonstração da oficina com a PCMG [CONJUNTO EM HOMOLOGAÇÃO/TESTES]. Contém dados estatísticos sobre violência contra a mulher no estado de Minas Gerais, extraídos do REDS
 owner_org: policia-civil-pcmg
 source: http://www.seguranca.mg.gov.br/component/gmg/page/3118-violencia-contra-a-mulher
-homepage: https://github.com/Andrelamor/violencia-contra-mulher 
+homepage: https://github.com/transparencia-mg/violencia-contra-mulher 
 frequência de atualização: mensal
 version: 0.2.0
 contributors:
-  - title: André Amorim
+  - title: Diretoria de Estatística da Polícia Civil
     role: publisher
-    email: andre.amorim@cge.mg.gov.br
+    email: estatistica.siip@pcivil.mg.gov.br
+  - title: Diretoria Central de Transparência Ativa da Controladoria-Central do Estado
+    role: maintainer
+    email: transparencia@cge.mg.gov.br
 licenses:
   - name: CC-BY-4.0
     title: Creative Commons Attribution 4.0
