@@ -26,7 +26,7 @@ fields:
   - name: rmbh
     type: string
     title: Região Metropolitana de BH
-    description: ano de ocorrência do evento
+    description: Região Metropolitana de BH
   - name: natureza_delito
     type: string
     title: Natureza do Delito
