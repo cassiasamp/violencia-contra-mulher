@@ -17,7 +17,7 @@ fields:
     description: Mês de ocorrência do evento
   - name: ano
     type: integer
-    title: Ano do fato 
+    title: Ano do fato
     description: Ano de ocorrência do evento
   - name: risp
     type: string
@@ -26,7 +26,7 @@ fields:
   - name: rmbh
     type: string
     title: Região Metropolitana de Belo Horizonte
-    description: Indicador se o município pertence a região metropolitana de Belo Horizonte
+    description: Indica se o município pertence a região metropolitana de Belo Horizonte
   - name: tentado_consumado
     type: string
     title: tipo do crime
@@ -35,4 +35,3 @@ fields:
     type: integer
     title: Quantidade de vítimas
     description: Quantitativo de vítimas de feminicídio
-    

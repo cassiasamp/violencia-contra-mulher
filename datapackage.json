@@ -88,7 +88,7 @@
             "name": "rmbh",
             "type": "string",
             "title": "Região Metropolitana de Belo Horizonte",
-            "description": "Indicador se o município pertence a região metropolitana de Belo Horizonte"
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "tentado_consumado",
@@ -159,7 +159,7 @@
             "name": "rmbh",
             "type": "string",
             "title": "Região Metropolitana de Belo Horizonte",
-            "description": "Indicador se o município pertence a região metropolitana de Belo Horizonte"
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "tentado_consumado",
@@ -230,7 +230,7 @@
             "name": "rmbh",
             "type": "string",
             "title": "Região Metropolitana de Belo Horizonte",
-            "description": "Indicador se o município pertence a região metropolitana de Belo Horizonte"
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "tentado_consumado",
@@ -301,7 +301,7 @@
             "name": "rmbh",
             "type": "string",
             "title": "Região Metropolitana de Belo Horizonte",
-            "description": "Indicador se o município pertence a região metropolitana de Belo Horizonte"
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "tentado_consumado",
@@ -372,7 +372,7 @@
             "name": "rmbh",
             "type": "string",
             "title": "Região Metropolitana de Belo Horizonte",
-            "description": "Indicador se o município pertence a região metropolitana de Belo Horizonte"
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "tentado_consumado",
@@ -443,7 +443,7 @@
             "name": "rmbh",
             "type": "string",
             "title": "Região Metropolitana de Belo Horizonte",
-            "description": "Indicador se o município pertence a região metropolitana de Belo Horizonte"
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "tentado_consumado",
@@ -513,8 +513,8 @@
           {
             "name": "rmbh",
             "type": "string",
-            "title": "Região Metropolitana de BH",
-            "description": "ano de ocorrência do evento"
+            "title": "Região Metropolitana de Belo Horizonte",
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "natureza_delito",
@@ -591,8 +591,8 @@
           {
             "name": "rmbh",
             "type": "string",
-            "title": "Região Metropolitana de BH",
-            "description": "ano de ocorrência do evento"
+            "title": "Região Metropolitana de Belo Horizonte",
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "natureza_delito",
@@ -669,8 +669,8 @@
           {
             "name": "rmbh",
             "type": "string",
-            "title": "Região Metropolitana de BH",
-            "description": "ano de ocorrência do evento"
+            "title": "Região Metropolitana de Belo Horizonte",
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "natureza_delito",
@@ -747,8 +747,8 @@
           {
             "name": "rmbh",
             "type": "string",
-            "title": "Região Metropolitana de BH",
-            "description": "ano de ocorrência do evento"
+            "title": "Região Metropolitana de Belo Horizonte",
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "natureza_delito",
@@ -825,8 +825,8 @@
           {
             "name": "rmbh",
             "type": "string",
-            "title": "Região Metropolitana de BH",
-            "description": "ano de ocorrência do evento"
+            "title": "Região Metropolitana de Belo Horizonte",
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "natureza_delito",
@@ -903,8 +903,8 @@
           {
             "name": "rmbh",
             "type": "string",
-            "title": "Região Metropolitana de BH",
-            "description": "ano de ocorrência do evento"
+            "title": "Região Metropolitana de Belo Horizonte",
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "natureza_delito",
@@ -981,8 +981,8 @@
           {
             "name": "rmbh",
             "type": "string",
-            "title": "Região Metropolitana de BH",
-            "description": "ano de ocorrência do evento"
+            "title": "Região Metropolitana de Belo Horizonte",
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "natureza_delito",
@@ -1059,8 +1059,8 @@
           {
             "name": "rmbh",
             "type": "string",
-            "title": "Região Metropolitana de BH",
-            "description": "ano de ocorrência do evento"
+            "title": "Região Metropolitana de Belo Horizonte",
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "natureza_delito",
@@ -1137,8 +1137,8 @@
           {
             "name": "rmbh",
             "type": "string",
-            "title": "Região Metropolitana de BH",
-            "description": "ano de ocorrência do evento"
+            "title": "Região Metropolitana de Belo Horizonte",
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "natureza_delito",
@@ -1215,8 +1215,8 @@
           {
             "name": "rmbh",
             "type": "string",
-            "title": "Região Metropolitana de BH",
-            "description": "ano de ocorrência do evento"
+            "title": "Região Metropolitana de Belo Horizonte",
+            "description": "Indica se o município pertence a região metropolitana de Belo Horizonte"
           },
           {
             "name": "natureza_delito",

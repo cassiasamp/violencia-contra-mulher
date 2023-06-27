@@ -25,8 +25,8 @@ fields:
     description: Região Integrada de Segurança Pública
   - name: rmbh
     type: string
-    title: Região Metropolitana de BH
-    description: Região Metropolitana de BH
+    title: Região Metropolitana de Belo Horizonte
+    description: Indica se o município pertence a região metropolitana de Belo Horizonte
   - name: natureza_delito
     type: string
     title: Natureza do Delito
@@ -40,4 +40,3 @@ fields:
     title: Quantidade de vítimas
     description: quantitativo de vítimas de violência doméstica
 scheme: file
-
